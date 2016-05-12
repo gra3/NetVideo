@@ -1,5 +1,5 @@
 /*
-  VideoStore.cpp
+  NetVideo.cpp
 
   Basic operations of a video store
 */

@@ -34,6 +34,14 @@ int main() {
     assert(movie.getCode() == Video::CHILDRENS);
   }
 
+  // Video game
+  {
+    Video movie("A", Video::VIDEO_GAME);
+
+    assert(movie.getTitle() == "A");
+    assert(movie.getCode() == Video::VIDEO_GAME);
+  }
+
   // longer title
   {
     Video movie("A B", Video::REGULAR);
